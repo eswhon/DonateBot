@@ -29,8 +29,8 @@ class Var(object):
     DONATE_TEXT = os.environ.get('DONATE_TEXT')
 
   else:
-    API_ID = int("Put you API_ID here (in the String)")
-    API_HASH = "Put your API_HASH here (in the String)"
-    TOKEN = "Put your Bot Token here (in the String)"
-    OWNER_ID = int("Put your Telegram ID here (in the String)")
-    DONATE_TEXT = "Put your Donat Text/Message to be repeated here (in the String)"
+    API_ID = "16209450"
+    API_HASH = "a4573c55ebf7c23038b927997447b78d"
+    TOKEN = "5674000763:AAFVqEQpOv-P6O2ty0-jrCmEgVXMzjru3Es"
+    OWNER_ID = "2022313646"
+    DONATE_TEXT = "Put your Donat Text/Message to be repeated here"
