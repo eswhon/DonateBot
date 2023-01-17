@@ -22,15 +22,10 @@ ENV = os.environ.get("ENV")
 
 class Var(object):
   if ENV:
-    API_ID = int(os.environ.get('API_ID'))
-    APP_HASH = os.environ.get('API_HASH')
-    TOKEN = os.environ.get('TOKEN')
-    OWNER_ID = int(os.environ.get('OWNER_ID'))
-    DONATE_TEXT = os.environ.get('DONATE_TEXT')
+    API_ID = int(os.environ.get('API_ID', '16209450'))
+    APP_HASH = os.environ.get('API_HASH', 'a4573c55ebf7c23038b927997447b78d')
+    TOKEN = os.environ.get('TOKEN', '5674000763:AAFVqEQpOv-P6O2ty0-jrCmEgVXMzjru3Es')
+    OWNER_ID = int(os.environ.get('OWNER_ID', '2022313646'))
+    DONATE_TEXT = os.environ.get('DONATE_TEXT', 'huhu')
 
-  else:
-    API_ID = "16209450"
-    API_HASH = "a4573c55ebf7c23038b927997447b78d"
-    TOKEN = "5674000763:AAFVqEQpOv-P6O2ty0-jrCmEgVXMzjru3Es"
-    OWNER_ID = "2022313646"
-    DONATE_TEXT = "Put your Donat Text/Message to be repeated here"
+  
